@@ -1,0 +1,82 @@
+<schemalist>
+  <schema id="org.gnome.shell.extensions.lumen" path="/org/gnome/shell/extensions/lumen/">
+    <key name="debug-logging" type="b">
+      <default>true</default>
+      <summary>Enable debug logging</summary>
+      <description>Write diagnostic messages to the GNOME Shell journal.</description>
+    </key>
+    <key name="profiles-json" type="s">
+      <default>'{"version":1,"activeProfile":"default","profiles":{"default":{"name":"Default","positionMode":"free","grid":{"cols":12,"rows":8,"gap":14},"snap":20,"allowOverlap":false,"monitor":"primary","widgets":[]}}}'</default>
+      <summary>Widget profiles</summary>
+      <description>Validated JSON containing widget profiles and positions.</description>
+    </key>
+    <key name="schema-version" type="i">
+      <default>1</default>
+      <summary>Configuration schema version</summary>
+    </key>
+    <key name="active-profile" type="s">
+      <default>'default'</default>
+      <summary>Active widget profile</summary>
+    </key>
+    <key name="edit-mode" type="b">
+      <default>false</default>
+      <summary>Edit widgets</summary>
+    </key>
+    <key name="lock-layout" type="b">
+      <default>false</default>
+      <summary>Lock layout</summary>
+    </key>
+    <key name="show-panel-indicator" type="b">
+      <default>true</default>
+      <summary>Show panel indicator</summary>
+    </key>
+    <key name="toggle-edit-keybinding" type="as">
+      <default>[]</default>
+      <summary>Edit mode keybinding</summary>
+    </key>
+    <key name="theme-preset" type="s">
+      <default>'system'</default>
+      <summary>Theme preset</summary>
+    </key>
+    <key name="follow-system-accent" type="b">
+      <default>true</default>
+      <summary>Follow system accent</summary>
+    </key>
+    <key name="accent-override" type="s">
+      <default>''</default>
+      <summary>Accent override</summary>
+    </key>
+    <key name="glass-tier" type="i">
+      <default>1</default>
+      <summary>Glass effect tier</summary>
+    </key>
+    <key name="global-opacity" type="d">
+      <default>1.0</default>
+      <summary>Global surface opacity</summary>
+    </key>
+    <key name="corner-radius" type="i">
+      <default>20</default>
+      <summary>Global corner radius</summary>
+    </key>
+    <key name="reduce-motion" type="b">
+      <default>false</default>
+      <summary>Reduce motion</summary>
+    </key>
+    <key name="time-format" type="s">
+      <default>'system'</default>
+      <summary>Clock time format</summary>
+    </key>
+    <key name="temperature-unit" type="s">
+      <default>'system'</default>
+      <summary>Temperature unit</summary>
+    </key>
+    <key name="overview-integration" type="b">
+      <default>false</default>
+      <summary>Overview integration</summary>
+    </key>
+    <key name="always-draggable" type="b">
+      <default>false</default>
+      <summary>Always draggable widgets</summary>
+    </key>
+  </schema>
+</schemalist>

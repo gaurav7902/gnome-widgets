@@ -1,0 +1,226 @@
+.lm-canvas {
+    background-color: transparent;
+}
+
+.lm-card {
+    border-width: 1px;
+    border-color: rgb(255 255 255 / 20%);
+    border-radius: 16px;
+    background-color: rgb(24 24 24 / 85%);
+    padding: 14px;
+}
+
+.lm-card-tier-0 {
+    box-shadow: none;
+}
+
+.lm-card-tier-1 {
+    box-shadow: 0 8px 24px rgb(0 0 0 / 30%);
+}
+
+.lm-widget-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.lm-ring-gauge {
+    border-radius: 50%;
+}
+
+.lm-caption {
+    font-size: 11px;
+}
+
+.lm-body {
+    font-size: 13px;
+}
+
+.lm-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lm-display-compact {
+    font-size: 28px;
+}
+
+.lm-display-regular {
+    font-size: 40px;
+}
+
+.lm-display-large {
+    font-size: 56px;
+}
+
+.lm-tabular {
+    font-family: monospace;
+}
+
+.lm-clock-primary {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.lm-clock-secondary,
+.lm-clock-tertiary {
+    font-size: 13px;
+}
+
+.lm-clock-caption,
+.lm-system-caption,
+.lm-battery-caption,
+.lm-timer-caption,
+.lm-text-caption {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.lm-hidden {
+    opacity: 0;
+}
+
+.lm-system-label,
+.lm-system-value {
+    font-size: 13px;
+}
+
+.lm-calendar-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lm-calendar-button,
+.lm-todo-button,
+.lm-timer-button {
+    background-color: rgb(255 255 255 / 15%);
+    border-width: 1px;
+    border-color: rgb(255 255 255 / 30%);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.lm-todo-entry {
+    background-color: rgb(0 0 0 / 40%);
+    border-width: 1px;
+    border-color: rgb(255 255 255 / 25%);
+    border-radius: 8px;
+    padding: 6px 10px;
+    color: #fff;
+}
+
+.lm-calendar-day {
+    min-width: 32px;
+    min-height: 28px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+
+.lm-calendar-today {
+    min-width: 32px;
+    min-height: 28px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    color: #4a90d9;
+}
+
+.lm-calendar-dim {
+    min-width: 32px;
+    min-height: 28px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    opacity: 0.4;
+}
+
+.lm-battery-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.lm-battery-detail {
+    font-size: 13px;
+}
+
+.lm-todo-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lm-todo-row {
+    font-size: 13px;
+}
+
+.lm-text-widget,
+.lm-timer {
+    padding: 12px;
+}
+
+.lm-text-content {
+    font-size: 13px;
+}
+
+.lm-timer-title {
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.lm-timer-detail {
+    font-size: 13px;
+}
+
+.lm-photos-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.lm-photos-row {
+    font-size: 13px;
+}
+
+/* Shared surface and spacing for each desktop widget. */
+.lm-clock,
+.lm-system,
+.lm-calendar,
+.lm-battery,
+.lm-todo,
+.lm-text-widget,
+.lm-timer,
+.lm-photos,
+.lm-weather,
+.lm-media {
+    padding: 14px;
+    color: #f6f5f4;
+    background-color: rgb(30 30 38 / 90%);
+    border: 1px solid rgb(255 255 255 / 14%);
+    border-radius: 18px;
+}
+
+.lm-widget-header {
+    min-height: 24px;
+}
+
+.lm-calendar-weekday {
+    min-width: 28px;
+    min-height: 22px;
+    color: #b8b7c5;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.lm-calendar-day:hover {
+    background-color: rgb(255 255 255 / 10%);
+}
+
+.lm-edit-cancel {
+    color: #e4e3eb;
+    background-color: transparent;
+}

@@ -1,0 +1,10 @@
+{
+    "uuid": "gaurav7902@thegorav.xyz",
+    "name": "Lumen",
+    "description": "Theme-aware desktop widgets for GNOME Shell.",
+    "shell-version": ["48", "49", "50", "51"],
+    "settings-schema": "org.gnome.shell.extensions.lumen",
+    "gettext-domain": "lumen",
+    "url": "https://github.com/gaurav7902/gnome-widgets",
+    "version": 1
+}
