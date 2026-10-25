@@ -3,6 +3,4 @@ node_modules/
 dist/
 build/
 .test-dist/
-AGENTS.md
-*Plan.md
 *.logs
